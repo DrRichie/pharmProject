@@ -1,0 +1,34 @@
+
+
+/*Vendor And Price Selector*/
+
+.card-body{
+  display: none;
+}
+
+
+.card-body{
+  width: 100%;
+  background-color:#FFD700;
+  outline: none;
+  border: none;
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .card-body label{
+       font-size: 50px;
+    }
+
+    .form-group input{
+      height:100px;
+    }
+
+
+}

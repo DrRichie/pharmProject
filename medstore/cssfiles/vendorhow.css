@@ -1,0 +1,108 @@
+
+
+
+
+
+/* HERO TOP*/
+
+
+
+#howitworkshero h1{
+	font-weight: bold;
+	font-size: 30px;
+   text-align:left;
+   color:#40E0D0;
+}
+
+
+.how-to-3-stages{
+  margin:20px auto;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+ #howitworkshero h1{
+  	font-size: 25px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width:900px){
+  #howitworkshero h1{
+  		font-size: 20px;
+
+
+  }
+
+}
+
+
+@media screen and (max-width: 735px) {
+
+#howitworkshero h1{
+  	font-size: 15px;
+}
+
+
+/* HERO TOP*/
+
+#howitworkshero{
+
+  height:100vh;
+  width:100%;
+  background:url('#')#f0f0f0;
+  background-size:cover;
+  display: inline-block;
+}
+
+
+
+#howitworkshero h1{
+	font-weight: bold;
+	font-size: 30px;
+   text-align:left;
+   color:#40E0D0;
+}
+
+
+.how-to-3-stages{
+  margin:20px auto;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+ #howitworkshero h1{
+  	font-size: 25px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width:900px){
+  #howitworkshero h1{
+  		font-size: 20px;
+
+
+  }
+
+}
+
+
+@media screen and (max-width: 735px) {
+
+#howitworkshero h1{
+  	font-size: 15px;
+}
+
+
+}
+

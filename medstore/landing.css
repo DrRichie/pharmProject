@@ -1,0 +1,302 @@
+
+
+/* HERO TOP*/
+
+#hero{
+  position:relative;
+  height:100vh;
+  width:100%;
+  background:url('images/unsplash/drugs.jpg')#f0f0f0;
+  background-size:cover;
+}
+
+
+
+#hero h1{
+
+  margin: 50px;
+
+  font-weight: bold;
+  font-size:50px;
+   color:black;
+}
+
+#hero h1:hover{
+
+  color:#696969;
+}
+
+
+
+/*Our Services*/
+#mobileserviceSlide{
+  display: none;
+}
+
+
+#serviceSlide{
+  margin-top: 50px;
+  margin-bottom:70px; 
+  padding:20px;
+  width: 100%;
+}
+
+#serviceSlide h6{
+  font-size:20px;
+  font-weight: bold;
+  text-transform:uppercase;
+  margin:7px 0;
+  text-align:left;
+
+}
+
+.horizontal_slider{
+  display:block;
+  width:100%;
+  overflow-x:scroll;
+  padding:20px;
+  box-sizing:border-box;
+  background-color:#fff;
+-ms-overflow:none;
+
+}
+
+.slider_container{
+  display:block; 
+  white-space:nowrap
+}
+
+
+.item{
+  display:inline-block;
+  margin-right:10px;
+
+}
+
+
+.item img{
+  height:225px;
+  width:500px;
+  object-fit:cover;
+}
+
+
+
+/*MOBILE SLIDER*/
+#carouselExampleIndicators{
+      display: none;
+    }
+
+    .carousel-indicators{
+      background: gold;
+    }
+
+    .carousel-item{
+      height:100%;
+      width: 100%;
+      padding: 10px auto;
+    }
+
+    .carousel-item img{
+      z-index: -1;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+      color: gold;
+      z-index: 8;
+    }
+
+
+
+
+
+
+/* VIEW PRODUCT CATEGORY*/
+
+#ViewCat{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width:100%;
+  background-color: transparent;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#ViewCat button{
+  border-radius: 4px;
+  background-color: gold;
+  color: black;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+
+
+/*PRODUCT CATEGORY*/
+
+.contentP{
+  display: none;
+}
+
+.contentpp{
+  display:block;
+
+}
+
+
+
+.contentP{
+  padding:80px;
+  background:url('images/unsplash/realtabs.png')#f0f0f0;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom:0;
+  transition: transform 0.5s ease-in;
+
+}
+
+.contentP li{
+  border:1px solid transparent;
+  box-shadow:0px 0px 7px rgba(0,0,0,0.25);
+  border-radius:2px;
+  list-style-type:none;
+  padding:2px;
+  margin:20px;
+  text-align:center;
+  color:black;
+  background-color:white;
+  
+}
+
+.contentP li a{
+  color:black;
+
+}
+
+
+.contentP li a:hover{
+  color:orange;
+  text-decoration:none;
+
+}
+
+.contentP h2{
+  text-align:center;
+  color:white;
+}
+
+.contentP h3{
+  text-align:center;
+  color:white;
+}
+
+
+
+/* BUY AND SELL */
+
+#BuyandSell{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#BuyandSell ul{
+  padding: 5px auto;
+  list-style-type: none;
+
+}
+
+#BuyandSell h6{
+  font-weight: bold;
+
+}
+
+.picture-wrapper{
+  border:8px solid gold;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px auto;
+}
+
+
+
+
+/* LEARN MORE LINK*/
+
+#LearnMoreLink{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column; 
+  width:100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#LearnMoreLink button{
+  border-radius: 4px;
+  background-color: gold;
+  outline: none;
+  border: none;
+  width: auto;
+  font-size: 20px;
+}
+
+
+
+
+/*-- MEDIA QUERIES--*/
+
+
+
+
+@media only screen and (max-width: 900px) { 
+
+
+  #hero{
+
+    display: none;
+}
+
+/*OUR SERVICES*/
+
+#serviceSlide{
+  display: none;
+}
+
+
+#mobileserviceSlide{
+  display: block;
+  margin-top: 50px;
+  margin-bottom:70px; 
+  padding:20px;
+  width: 100%;
+}
+
+/*MOBILE SLIDER*/
+#carouselExampleIndicators{
+      display: block;
+      margin: 10px auto;
+      height: auto;
+      width: 100%;
+      background: black;
+    }
+
+/*PRODUCT CATEGORY*/
+
+.two,.three{
+    display: none;
+}
+
+
+}

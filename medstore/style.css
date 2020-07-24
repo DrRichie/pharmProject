@@ -1,0 +1,153 @@
+/*
+Theme Name:MED
+Author:Richy
+version: 1.0
+
+
+*/
+
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+ background-color:  #F5F5F5;
+}
+
+
+
+/*FRONTPAGE CONTENT*/
+.content{
+  padding:2rem 0rem;
+  margin-bottom:1rem;
+
+}
+
+/*SEARCH FORM*/
+
+.searchformdiv{
+
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 10px auto;
+  border: none;
+
+}
+
+
+
+.searchform{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px auto;
+  border: none;
+
+}
+  
+
+#s{
+    height:70px;
+    padding:5px 8px;
+    font-size:15px;
+    line-height:1.1;
+    border-radius:6px;
+  width:600px;
+
+
+}
+
+.searchButton{
+  height: 70px;
+  width: 70px;
+  border: 1px solid transparent;
+  background-color: transparent;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 770px) { 
+.searchformdiv{
+  display: none;
+}
+
+
+
+#s{
+    height:120px;
+    padding:5px 8px;
+    font-size:35px;
+    line-height:2;
+    border-radius:6px;
+  width:700px;
+}
+
+.searchButton{
+  height: 40px;
+  width: 70px;
+  border: 1px solid transparent;
+  background-color: transparent;
+
+}
+
+/*.searchform input::placeholder{
+  font-size: 40px;
+}
+*/
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cSpage{
+  padding-top: 250px;
+  width:100%;
+  height:100%;
+  background:url('images/unsplash/orange.jpg')#f0f0f0; 
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.woocommerce-MyAccount-navigation{
+  padding-top: 100px;
+}
+
+#vRpage{
+  width:100%;
+  height:auto;
+  background:url('images/unsplash/orange.jpg')#f0f0f0; 
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
